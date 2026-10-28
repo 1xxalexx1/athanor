@@ -1,0 +1,17 @@
+{
+  "name": "athanor-theme",
+  "displayName": "Athanor",
+  "description": "Umber, Vellum, Orpiment and Cinnabar: the Athanor desktop colour schemes for VS Code.",
+  "version": "0.1.0",
+  "publisher": "alex",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      { "label": "Athanor Umber", "uiTheme": "vs-dark", "path": "./themes/athanor-umber-color-theme.json" },
+      { "label": "Athanor Vellum", "uiTheme": "vs", "path": "./themes/athanor-vellum-color-theme.json" },
+      { "label": "Athanor Orpiment", "uiTheme": "vs", "path": "./themes/athanor-orpiment-color-theme.json" },
+      { "label": "Athanor Cinnabar", "uiTheme": "vs-dark", "path": "./themes/athanor-cinnabar-color-theme.json" }
+    ]
+  }
+}
